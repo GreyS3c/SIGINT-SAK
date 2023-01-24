@@ -27,4 +27,24 @@ The SIGINT-SAK was built for 64-bit Ubuntu-based operating systems with at least
 - Pop!_OS 22.04 LTS (NVIDIA)
 - Pop!_OS 22.04 (RAS PI 4)
 
+## Installation
+The SIGINT-SAK was built to automate the installation and configuration of software packages as well as the directory structure within those pertinent to the project. This said, a small amount of interaction may still be required of the user around OK’ing certain features and entering their password after the scripted system reboot. 
 
+To function properly (without modification) It is recommended that you clone the SIGINT-SAK files into a directory titled “Programs”. To make this directory:
+```
+mkdir ~/Downloads/Programs
+cd ~/Downloads/Programs
+```
+Clone the SIGINT-SAK files:
+```
+git clone https://github.com/greys3c/SIGINT-SAK 
+```
+Change to directory then grant the script permission to execute:
+```
+cd SIGINT-SAK
+sudo chmod +x main.sh
+```
+Run the scrip: 
+```
+sudo ./main.sh
+```
