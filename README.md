@@ -1,5 +1,5 @@
 # SIGINT-SAK
-A “Swiss Army Knife”  signals intelligence (SIGINT) toolkit for the novice Linux operator.
+A full spectrum signals intelligence (SIGINT) “Swiss Army knife” (SAK) toolkit for the novice Linux operator.
 
 ## Description:
 *(Alpha Release)*
