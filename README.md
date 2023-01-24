@@ -26,3 +26,5 @@ The SIGINT-SAK was built for 64-bit Ubuntu-based operating systems with at least
 - Ubuntu 22.03.1 arm64 (Ras Pi 4 & 4b) 
 - Pop!_OS 22.04 LTS (NVIDIA)
 - Pop!_OS 22.04 (RAS PI 4)
+
+``` sudo apt update ```
