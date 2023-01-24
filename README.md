@@ -27,6 +27,8 @@ The SIGINT-SAK was built for 64-bit Ubuntu-based operating systems with at least
 - Pop!_OS 22.04 LTS (NVIDIA)
 - Pop!_OS 22.04 (RAS PI 4)
 
+In addition to the host device, the user will require a RTL-SDR BLOG V3 and WiFi Adapter capable of monitor mode, as well as a panel WiFi antenna capable of receiving 2.4GHz and 5.0GHz signals. For more information on these as well as requirements specific to Raspberry Pi 4/4B or bootable USB-Flashdrive builds, be sure to check out my blog post here. 
+
 ## Installation Process
 main.sh serves as the central script to build and configure the tool kit. Below is a general overview of the installation process.
 | Step | Process |
@@ -65,4 +67,25 @@ Run the scrip:
 sudo ./main.sh
 ```
 
+## Post-Installation
+All errors encountered during installation have been compiled in the “Logs” directory, which you can navigate to with the following command:
+```
+cd ~/Downloads/Programs/SIGINT-SAK/Installation\ Files/Logs
+```
+At this point, it’s a good idea to start the following: 
+- Identify appropriate drivers for your WiFi adapter.
+- Modify you password and security settings (if you haven’t already)
+- Update, upgraded and reboot your device
+- Familiarize yourself with newly installed software packages
 
+## Upcoming Features & Capabilities
+The SIGINT-SAK tool-kit is an ongoing project, the evolution of which I hope to support for the coming years through the follow upgrades: 
+- Increased stability on all platforms
+- Enhanced automation for existing capabilities
+- Integration of other projects in development, such as custom tools for active scans and target interaction
+- Automated ‘play-books’ for tools such as Kismet, IMSI-Catcher, Beacon Swarm and others
+- Passive ‘Guard Dog’ proximity monitoring modes and logging
+- DMR decoding
+- Support for Debian-based devices
+
+If you have any ideas to improve the project, are consistently running into errors or have recommendations of any type, please be sure to contact me.
