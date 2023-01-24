@@ -30,7 +30,7 @@ The SIGINT-SAK was built for 64-bit Ubuntu-based operating systems with at least
 In addition to the host device, the user will require a RTL-SDR BLOG V3 and WiFi Adapter capable of monitor mode, as well as a panel WiFi antenna capable of receiving 2.4GHz and 5.0GHz signals. For more information on these as well as requirements specific to Raspberry Pi 4/4B or bootable USB-Flashdrive builds, be sure to check out my blog post here. 
 
 ## Installation Process
-main.sh serves as the central script to build and configure the tool kit. Below is a general overview of the installation process.
+main.sh serves as the central script to build and configure the tool kit. Through this process, it will disable services, modify your systems cromfile twice (the final time to remove added files) and execute various scripts associated with the project. As such, it must be run as root. Below is a general overview of the installation process.
 | Step | Process |
 | --- | --- |
 | 1. | Execute main.sh |
@@ -62,10 +62,12 @@ Change to directory then grant the script permission to execute:
 cd SIGINT-SAK
 sudo chmod +x main.sh
 ```
-Run the scrip: 
+Run the script: 
 ```
 sudo ./main.sh
 ```
+## Included Packages
+The following packages, software and projects were included in the SIGINT-SAK. For more information on their full capabilities, use and installation, be sure to check out their project pages (where applicable): 
 
 ## Post-Installation
 All errors encountered during installation have been compiled in the “Logs” directory, which you can navigate to with the following command:
