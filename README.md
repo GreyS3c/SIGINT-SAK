@@ -27,6 +27,22 @@ The SIGINT-SAK was built for 64-bit Ubuntu-based operating systems with at least
 - Pop!_OS 22.04 LTS (NVIDIA)
 - Pop!_OS 22.04 (RAS PI 4)
 
+## Installation Process
+main.sh serves as the central script to build and configure the tool kit. Below is a general overview of the installation process.
+| Step | Process |
+| --- | --- |
+| 1. | Execute main.sh |
+| 2. | Update/Upgrade/Auto Remove |
+| 3. | OS Detection. Disable Bluetooth & OS Specific telemetry |
+| 4. | Build SIGINT-SAK File Directories | 
+| 5. | Install Common Files & Configure Tor Proxies |
+| 6. | Detect architecture & execute relevent installation (amd64 or arm64)| 
+| 7. | Reboot device | 
+| 8. | Finish architecture specific installation, then resume main.sh | 
+| 9. | Execute public keyring checker | 
+| 10. | Check errors - curse at @greys3c under breath or on twitter |
+
+
 ## Installation
 The SIGINT-SAK was built to automate the installation and configuration of software packages as well as the directory structure within those pertinent to the project. This said, a small amount of interaction may still be required of the user around OK’ing certain features and entering their password after the scripted system reboot. 
 
@@ -48,3 +64,5 @@ Run the scrip:
 ```
 sudo ./main.sh
 ```
+
+
