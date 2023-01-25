@@ -6,7 +6,7 @@ A full-spectrum signals intelligence (SIGINT) “Swiss Army knife” (SAK) toolk
 
 The SIGINT-SAK Project was built to provide a lightweight, comprehensive toolkit for the amateur signals intelligence researcher who has little to no Linux experience, and on a budget of less than $300 USD (January 2023); though expanded equipment components (such as the HackRF modules or larger capacity battery banks) could bring the total cost to just shy of $500 USD.
 
-This project seeks to aggregate the most capable open-source projects in the SIGINT community and automate use of common CLI commands for quick use on small touch screens. In its most comprehensive use cases, SIGINT-SAK integrates advanced WiFi & Bluetooth tools, software-defined radio (HF/VHF/UHF) and traditional GPS (via gpsd – if desired), providing a full-spectrum 
+This project seeks to aggregate the most capable open-source projects in the SIGINT community and automate use of common CLI commands for quick use on small touch screens. In its most comprehensive use cases, SIGINT-SAK integrates advanced WiFi & Bluetooth tools, software-defined radio (HF/VHF/UHF) and traditional GPS (via gpsd – if desired). 
 
 Written entirely in bash for simple modification by the end user, the project was designed with the following capabilities in mind: 
 - Automated installation for Ubuntu-based amd64 and arm64 devices.
@@ -81,7 +81,7 @@ Once the installation is complete, it’s a good idea to start the following:
 - Familiarize yourself with newly installed software packages
 
 ## Upcoming Features & Capabilities
-The SIGINT-SAK tool-kit is an ongoing project, the evolution of which I hope to support for the coming years. Listed below are somoe of the planned updates/upgrades: 
+The SIGINT-SAK tool-kit is an ongoing project, the evolution of which I hope to support for the coming years. Listed below are some of the planned updates/upgrades for the near future: 
 - Increased stability on all platforms
 - Enhanced automation for existing capabilities
 - Integration of other projects in development, such as custom tools for active scans and target interaction
