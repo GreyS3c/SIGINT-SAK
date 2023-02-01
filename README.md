@@ -2,7 +2,7 @@
 A full-spectrum signals intelligence (SIGINT) “Swiss Army knife” (SAK) toolkit for the novice Linux operator.
 
 ## Description:
-*(Alpha Release - upload in progress)*
+*(alpha test release*
 
 The SIGINT-SAK Project was built to provide a lightweight, comprehensive toolkit for the amateur signals intelligence researcher who has little to no Linux experience, and on a budget of less than $300 USD (January 2023); though expanded equipment components (such as the HackRF modules or larger capacity battery banks) could bring the total cost to just shy of $500 USD.
 
