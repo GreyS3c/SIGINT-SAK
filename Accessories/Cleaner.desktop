@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=System Cleaner
+Exec=/home/user_var/Downloads/Programs/SIGINT-SAK/Accessories/Cleaner.sh
+Icon=/home/user_var/Downloads/Programs/SIGINT-SAK/Icons/skull.png
+Terminal=true
+Categories=Utility;Application;
