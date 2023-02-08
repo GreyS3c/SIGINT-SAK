@@ -28,13 +28,11 @@ sudo systemctl disable bluetooth.service
 
 # Building Directories
 mkdir ~/Documents/IMSI-catcher\ Logs
-mkdir ~/Downloads/Programs/SIGINT-SAK/Accessories
 mkdir ~/Downloads/Programs/SIGINT-SAK/Accessories/Tor
 mkdir ~/Downloads/Programs/SIGINT-SAK/Accessories/Veracrypt
 mkdir ~/Downloads/Programs/SIGINT-SAK/Cellular
 mkdir ~/Downloads/Programs/SIGINT-SAK/Icons
 mkdir ~/Downloads/Programs/SIGINT-SAK/Icons/Images
-mkdir ~/Downloads/Programs/SIGINT-SAK/Installation\ Files
 mkdir ~/Downloads/Programs/SIGINT-SAK/Installation\ Files/Config\ Mods
 mkdir ~/Downloads/Programs/SIGINT-SAK/Installation\ Files/Error\ Logs
 mkdir ~/Downloads/Programs/SIGINT-SAK/WiFi\ Tools
