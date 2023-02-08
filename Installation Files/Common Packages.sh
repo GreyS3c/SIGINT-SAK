@@ -20,9 +20,9 @@ sudo apt-get install cherrytree -y &
 sudo apt install bleachbit -y &
 # Installing Firefox
 sudo apt install firefox -y &
-# Installing MACchanger
-sudo apt install macchanger -y &
 wait
+# Installing MACchanger
+sudo apt install macchanger -y
 # Installing Tilix
 sudo apt-get install tilix -y
 
