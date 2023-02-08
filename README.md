@@ -30,24 +30,31 @@ The SIGINT-SAK was built for 64-bit Ubuntu-based operating systems with at least
 In addition to the host device, the user will require a RTL-SDR BLOG V3 and WiFi Adapter capable of monitor mode, as well as a panel WiFi antenna capable of receiving 2.4GHz and 5.0GHz signals. For more information on these as well as requirements specific to Raspberry Pi 4/4B or bootable USB-Flashdrive builds, be sure to check out my blog post here. 
 
 ## Installation Process
-main.sh serves as the central script to build and configure the tool kit. Through this process, it will disable unused and undesired (for privacy) services, modify your systems cromfile twice (the final time to remove added files) and execute various scripts associated with the project. As such, it must be run as root. Below is a general overview of the installation process:
+Central Script.sh serves to build and configure the tool kit by disabling unused and undesired services, executing various scripts associated with the project and moving files into specified directries. As such, it must be run as root. Below is a general overview of the installation process:
 | Step | Process |
 | --- | --- |
-| 1. | Execute main.sh |
+| 1. | Execute Central Script.sh |
 | 2. | Update/Upgrade/Auto Remove |
-| 3. | OS Detection. Disable Bluetooth & OS Specific telemetry |
+| 3. | OS Detection: Disable Bluetooth & OS Specific telemetry |
 | 4. | Build SIGINT-SAK File Directories | 
-| 5. | Install Common Files & Configure Tor Proxies |
+| 5. | Install Common Files |
 | 6. | Detect architecture & execute relevent installation (amd64 or arm64)| 
-| 7. | Reboot device | 
-| 8. | Finish architecture specific installation, then resume main.sh | 
-| 9. | Execute public keyring checker | 
+| 7. | Perform PGP Keyring checks where possible
+| 8. | Modify configuration files for Tor Proxychains & desktop entries |
+| 9. | Build menu icons for frequently used software(s) | 
 | 10. | Check errors - curse at @greys3c under breath or on twitter |
 
 
 ## Installation
 The SIGINT-SAK was built to automate the installation and configuration of software packages as well as the directory structure within those pertinent to the project. This said, a small amount of interaction may still be required of the user around OK’ing certain features and entering their password after the scripted system reboot. 
 
+Before we start, we'll update, upgrade and remove unnecessary files. We'll also ensure that you have git installed: 
+```
+sudo apt update
+sudo apt upgrade -y
+sudo apt autoremove -y
+sudo apt iinstall git -y
+```
 To function properly (without modification) It is recommended that you clone the SIGINT-SAK files into a directory titled “Programs”. To make this directory:
 ```
 mkdir ~/Downloads/Programs
@@ -57,14 +64,14 @@ Clone the SIGINT-SAK files:
 ```
 git clone https://github.com/greys3c/SIGINT-SAK 
 ```
-Change to directory then grant the script permission to execute:
+Change to the installation file directory then grant the script permission to execute:
 ```
-cd SIGINT-SAK
-sudo chmod +x main.sh
+cd ~/SIGINT-SAK/Installation\ Files
+sudo chmod +x Central\ Script.sh
 ```
 Run the script: 
 ```
-sudo ./main.sh
+sudo ./Central\ Scritp.sh
 ```
 ## Included Packages
 The following packages, software and projects were included in the SIGINT-SAK. For more information on their full capabilities, use and installation, be sure to check out their project pages (where applicable): 
@@ -75,9 +82,9 @@ All errors encountered during installation have been compiled in the “Logs” 
 cd ~/Downloads/Programs/SIGINT-SAK/Installation\ Files/Logs
 ```
 Once the installation is complete, it’s a good idea to start the following: 
-- Identify appropriate drivers for your WiFi adapter.
+- Reboort your machine (required before operating many included tools)
+- Identify appropriate drivers for your WiFi adapter of choice
 - Modify you password and security settings (if you haven’t already)
-- Update, upgraded then reboot your device
 - Familiarize yourself with newly installed software packages
 
 ## Upcoming Features & Capabilities
