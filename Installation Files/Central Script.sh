@@ -1,4 +1,4 @@
-#!/bin/bash/env bash
+#!/bin/bash
 # Created by GreyS3c
 # Central Script
 
