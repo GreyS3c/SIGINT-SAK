@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Kismet
+Exec=/home/user_var/Downloads/Programs/SIGINT-SAK/Accessories/kismetLauncher.sh
+Icon=/home/user_var/Downloads/Programs/SIGINT-SAK/Icons/kismet.png
+Terminal=true
+Categories=Utility;Application;

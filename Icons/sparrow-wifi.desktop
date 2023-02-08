@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Sparrow WiFi
+Exec=/home/user_var/Downloads/Programs/SIGINT-SAK/WiFi Tools/sparrow-wifi/sparrow-wifi.py
+Icon=/home/user_var/Downloads/Programs/SIGINT-SAK/Icons/sparrow.png
+Terminal=true
+Categories=Utility;Application;
