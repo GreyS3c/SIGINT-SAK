@@ -64,14 +64,14 @@ Clone the SIGINT-SAK files:
 ```
 git clone https://github.com/greys3c/SIGINT-SAK 
 ```
-Change to the installation file directory then grant the script permission to execute:
+Change to the installation file directory then grant the script permission to write & execute:
 ```
 cd ~/SIGINT-SAK/Installation\ Files
-sudo chmod +x Central\ Script.sh
+chmod +wx Central\ Script.sh
 ```
 Run the script: 
 ```
-sudo ./Central\ Scritp.sh
+./Central\ Scritp.sh
 ```
 ## Included Packages
 The following packages, software and projects were included in the SIGINT-SAK. For more information on their full capabilities, use and installation, be sure to check out their project pages (where applicable): 
