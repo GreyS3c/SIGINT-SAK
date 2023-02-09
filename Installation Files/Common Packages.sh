@@ -20,7 +20,6 @@ sudo apt-get install cherrytree -y
 sudo apt install bleachbit -y
 # Installing Firefox
 sudo apt install firefox -y
-wait
 # Installing MACchanger
 sudo apt install macchanger -y
 # Installing Tilix
@@ -35,7 +34,6 @@ sudo apt-get install rtl-sdr -y
 sudo apt-get install hackrf -y
 # Installing GNU Radio
 sudo apt install gnuradio -y
-wait
 
 # WiFi Tools
 # Installing nmap
@@ -46,7 +44,7 @@ sudo apt install ipcalc -y
 sudo apt install wireshark -y
 # Installing Airmon-ng 
 sudo apt-get install aircrack-ng -y
-wait
+
 # Installing Kismet
 cd ~/Downloads/Programs/SIGINT-SAK/WiFi\ Tools
 wget -O - https://www.kismetwireless.net/repos/kismet-release.gpg.key | sudo apt-key add -
