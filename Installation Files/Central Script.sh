@@ -87,10 +87,10 @@ sudo chmod -x Desktop\ Entry\ Mods.sh
 cd ~/Downloads/Programs/SIGINT-SAK/Icons
 sudo mv sparrow-wifi.desktop /usr/share/applications
 sudo mv kismet.desktop /usr/share/applications
-sudo mv IMSI-Catcher /usr/share/applications
+sudo mv imsi-catcher.desktop /usr/share/applications
 cd ~/Downloads/Programs/SIGINT-SAK/Accessories
 sudo mv Cleaner.desktop /usr/share/applications
-sudo mv imsi-catcher.desktop /usr/share/applications
+
 
 # Grant Cleaner.sh permission to execute
 cd ~/Downloads/Programs/SIGINT-SAK/Accessories
