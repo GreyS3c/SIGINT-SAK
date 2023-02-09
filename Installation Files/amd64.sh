@@ -3,13 +3,13 @@
 
 cd ~/Downloads/Programs/SIGINT-SAK/WiFi\ Tools
 # Installing Sparrow-WiFi
-sudo apt-get install python3-pip gpsd gpsd-clients python3-tk python3-setuptools python3-pyqt5.qtchart
-sudo pip3 install QScintilla gps3 dronekit manuf python-dateutil numpy matplotlib
+sudo apt-get install python3-pip gpsd gpsd-clients python3-tk python3-setuptools python3-pyqt5.qtchart -y
+sudo pip3 install QScintilla gps3 dronekit manuf python-dateutil numpy matplotlib -y
 git clone https://github.com/ghostop14/sparrow-wifi
 cd sparrow-wifi
 virtualenv --python=python3 $HOME/sparrow
 source $HOME/sparrow/bin/activate
-pip3 install gps3 python-dateutil requests pyqt5 pyqtchart numpy matplotlib
+pip3 install gps3 python-dateutil requests pyqt5 pyqtchart numpy matplotlib -y
 
 # Installing amd64 VeraCrypt 
 cd ~/Downloads/Programs/SIGINT-SAK/Accessories/Veracrypt
