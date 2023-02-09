@@ -15,11 +15,11 @@ sudo apt autoremove -y
 
 # Common tools
 # Installing CherryTree multi-layer notes
-sudo apt-get install cherrytree -y &
+sudo apt-get install cherrytree -y
 # Installing Bleachbit
-sudo apt install bleachbit -y &
+sudo apt install bleachbit -y
 # Installing Firefox
-sudo apt install firefox -y &
+sudo apt install firefox -y
 wait
 # Installing MACchanger
 sudo apt install macchanger -y
@@ -28,24 +28,24 @@ sudo apt-get install tilix -y
 
 # SDR Programs & Packages
 # Installing CubicSDR
-sudo apt install cubicsdr -y &
+sudo apt install cubicsdr -y
 # Installing RTL-SDR
-sudo apt-get install rtl-sdr -y &
+sudo apt-get install rtl-sdr -y
 # Installing HackRF
-sudo apt-get install hackrf -y &
+sudo apt-get install hackrf -y
 # Installing GNU Radio
-sudo apt install gnuradio -y &
+sudo apt install gnuradio -y
 wait
 
 # WiFi Tools
 # Installing nmap
-sudo apt install nmap -y &
+sudo apt install nmap -y
 # Installing ipcalc
-sudo apt install ipcalc -y &
+sudo apt install ipcalc -y
 # Install wireshark
-sudo apt install wireshark -y &
+sudo apt install wireshark -y
 # Installing Airmon-ng 
-sudo apt-get install aircrack-ng -y &
+sudo apt-get install aircrack-ng -y
 wait
 # Installing Kismet
 cd ~/Downloads/Programs/SIGINT-SAK/WiFi\ Tools
