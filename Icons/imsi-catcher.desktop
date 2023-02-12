@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=IMSI-Catcher
-Exec=/home/user_var/Downloads/Programs/SIGINT-SAK/Accessories/imsi-catcherLauncher.sh
-Icon=/home/user_var/Downloads/Programs/SIGINT-SAK/Icons/Oros42_IMSI-Catcher.png
-Terminal=true
-Categories=Utility;Application;
