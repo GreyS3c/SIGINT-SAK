@@ -73,8 +73,6 @@ Run the script:
 ```
 ./Central\ Script.sh
 ```
-## Included Packages
-The following packages, software and projects were included in the SIGINT-SAK. For more information on their full capabilities, use and installation, be sure to check out their project pages (where applicable): 
 
 ## Post-Installation
 All errors encountered during installation have been compiled in the “Logs” directory, which you can navigate to with the following command:
