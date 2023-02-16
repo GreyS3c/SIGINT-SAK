@@ -2,7 +2,7 @@
 A full-spectrum signals intelligence (SIGINT) “Swiss Army knife” (SAK) toolkit for the novice Linux operator.
 
 ## Description:
-*(alpha test release - working on it!)*
+*([alpha test release](https://greys3c.com/the-sigint-sak-project/) - work in progress!)*
 
 The SIGINT-SAK Project was built to provide a lightweight, comprehensive toolkit for the amateur signals intelligence researcher who has little to no Linux experience, and on a budget of less than $300 USD (January 2023); though expanded equipment components (such as the HackRF modules or larger capacity battery banks) could bring the total cost to just shy of $500 USD.
 
@@ -44,6 +44,30 @@ Central Script.sh serves to build and configure the tool kit by disabling unused
 | 9. | Build menu icons for frequently used software(s) | 
 | 10. | Check errors - curse at @greys3c under breath or on twitter |
 
+## Included Software Packages
+Through the course of the installation process, the following software packages will be installed on your device, only two of which currently (alpha release) require architecture specific installation processes.
+- [Aircrack-ng](https://www.aircrack-ng.org/)
+- [Bleachbit](https://www.bleachbit.org/)
+- [CherryTree (hierarchical notes)](https://www.giuspen.net/cherrytree/)
+- [CubicSDR](https://cubicsdr.com/)
+- [ExifTool](https://exiftool.org/)
+- Firefox
+- [GNU Radio](https://www.gnuradio.org/)
+- [HackRF](https://greatscottgadgets.com/hackrf/one/)
+- [IMSI-Catcher](https://github.com/Oros42/IMSI-catcher)
+- [ipcalc](https://jodies.de/ipcalc)
+- [Kismet Wireless](https://www.kismetwireless.net/)
+- [MAC Changer](https://github.com/alobbs/macchanger)
+- [mat2](https://github.com/tpet/mat2)
+- [nmap](https://nmap.org/)
+- [Onionshare](https://github.com/onionshare/onionshare)
+- [RTL-SDR](https://www.rtl-sdr.com/rtl-sdr-quick-start-guide/)
+- [Sparrow WiFi](https://github.com/ghostop14/sparrow-wifi)
+- [Tilix Terminal emulator](https://gnunn1.github.io/tilix-web/)
+- Tor Browser
+- [Tor Proxychains](https://github.com/rofl0r/proxychains-ng)
+- [VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/)
+- [Wireshark](https://www.wireshark.org/)
 
 ## Installation
 The SIGINT-SAK was built to automate the installation and configuration of software packages as well as the directory structure within those pertinent to the project. This said, a small amount of interaction may still be required of the user around OK’ing certain features and entering their password after the scripted system reboot. 
